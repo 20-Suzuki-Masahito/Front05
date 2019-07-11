@@ -1,0 +1,165 @@
+body {
+    background-color: #ffffff;
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5 {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+header {
+    margin-top: 20px;
+}
+
+.container {
+    width: 860px;
+    margin: 0 auto 40px auto;
+}
+
+.header-title-area {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 32px;
+}
+
+.text-sub {
+    color: #777;
+}
+
+.header-navigation {
+    width: 100%;
+    background-color: #404040;
+    margin-top: 40px;
+    padding: 20px 0;
+    
+}
+
+.header-navigation::after {
+    clear: both;
+    display: block;
+    content: " ";
+}
+
+.header-navigation li {
+    float: left;
+    padding: 0 30px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.header-navigation li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.left-contents {
+    width: 570px;
+    margin-right: 20px;
+    float: left;
+}
+
+.right-contents {
+    width: 270px;
+    float: left;
+}
+
+.blog-image-area {
+    width: 150px;
+    height: 200px;
+    margin-right: 20px;
+    float: left;
+}
+
+.blog-image-area::after {
+    clear: both;
+    content: " ";
+}
+
+.blog-image {
+    width: 150px;
+    height: 150px;
+    display: block;
+}
+
+.blog-text {
+    width:400px;
+    height: 200px;
+    float: left;
+}
+
+.blog-text::after {
+    clear: both;
+    display: block;
+    content: " ";
+}
+
+.date {
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+.blog-title {
+    font-size: 20px;
+    color: #4169e1;
+}
+
+.blog-sentence {
+    font-size: 12px;
+    color: #808080;
+}
+
+.list-image-area {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.list-image-area::after {
+    clear: both;
+    content: " ";
+}
+
+.list-image {
+    width: 70px;
+    height: 70px;
+}
+
+.list-text {
+    width: 180px;
+    height: 90px;
+    float: left;
+}
+
+.list-text::after {
+    clear: both;
+    content: " ";
+}
+
+.list-date {
+    margin-top: 0px;
+    color: #808080;
+}
+
+.list-title {
+    color: #4169e1;
+}
+
+.copyright {
+  color: #777;
+  text-align: center;
+}
+
+.main:after {
+    clear: both;
+    display: block;
+    content: " ";
+}
